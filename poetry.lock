@@ -665,16 +665,17 @@ extended-testing = ["beautifulsoup4 (>=4.12.3,<5.0.0)", "lxml (>=4.9.3,<6.0)"]
 
 [[package]]
 name = "langchainhub"
-version = "0.1.18"
+version = "0.1.20"
 description = "The LangChain Hub API client"
 optional = false
 python-versions = "<4.0,>=3.8.1"
 files = [
-    {file = "langchainhub-0.1.18-py3-none-any.whl", hash = "sha256:11501f15e7f34715ecc8892587daa35c6f2a3005e1f2926c9bcabd31fc2c100c"},
-    {file = "langchainhub-0.1.18.tar.gz", hash = "sha256:f2d0d8bf3abe4ca5e70511d8220bdc9ccea28d5267bcfd0e5ef9c53bd5bd3bad"},
+    {file = "langchainhub-0.1.20-py3-none-any.whl", hash = "sha256:b3cbb5b2d7d6f9c3f89748bcc74424d8030ed4ebca58b5f44e0b6d9f111e33eb"},
+    {file = "langchainhub-0.1.20.tar.gz", hash = "sha256:499fa8958233071f35750987f325005d16241bebd455163955b607c195c37f25"},
 ]
 
 [package.dependencies]
+packaging = ">=23.2,<25"
 requests = ">=2,<3"
 types-requests = ">=2.31.0.2,<3.0.0.0"
 
@@ -870,13 +871,13 @@ files = [
 
 [[package]]
 name = "openai"
-version = "1.33.0"
+version = "1.34.0"
 description = "The official Python library for the openai API"
 optional = false
 python-versions = ">=3.7.1"
 files = [
-    {file = "openai-1.33.0-py3-none-any.whl", hash = "sha256:621163b56570897ab8389d187f686a53d4771fd6ce95d481c0a9611fe8bc4229"},
-    {file = "openai-1.33.0.tar.gz", hash = "sha256:1169211a7b326ecbc821cafb427c29bfd0871f9a3e0947dd9e51acb3b0f1df78"},
+    {file = "openai-1.34.0-py3-none-any.whl", hash = "sha256:018623c2f795424044675c6230fa3bfbf98d9e0aab45d8fd116f2efb2cfb6b7e"},
+    {file = "openai-1.34.0.tar.gz", hash = "sha256:95c8e2da4acd6958e626186957d656597613587195abd0fb2527566a93e76770"},
 ]
 
 [package.dependencies]
@@ -1598,4 +1599,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "93004c20aa4bd68c78eb819e9e1b29822c46465f095259e66569e1e9e3dd94b5"
+content-hash = "fcb8188482c89d529569c696f49033d7096b20233fc3c8b53fe96ffaa70e3106"
